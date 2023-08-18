@@ -25,7 +25,7 @@ export default function InterpolationPanel() {
     setBrainRunValue(event.target.value)
   };
 
-  const operatorExecutor = useOperatorExecutor('@voxel51/interpolation/interpolator')
+  const operatorExecutor = useOperatorExecutor('concept_interpolation/interpolator')
 
   return (
     <Box p={4}>

@@ -1,10 +1,10 @@
-name: "@voxel51/interpolation"
+name: "concept_interpolation"
 description: Find images that best interpolate between two text-based extremes!
 version: 1.0.0
 fiftyone:
   version: "*"
 license: Apache 2.0
-url: "https://github.com/voxel51/fiftyone-plugins/blob/main/plugins/interpolation/README.md"
+url: "https://github.com/jacobmarks/concept-interpolation/blob/main/README.md"
 operators:
   - interpolator
   - open_interpolation_panel
