@@ -38,8 +38,8 @@ fob.compute_similarity(
 
 ```shell
 fiftyone plugins download \
-    https://github.com/voxel51/fiftyone-plugins \
-    --plugin-names @voxel51/interpolation
+    https://github.com/jacobmarks/concept-interpolation \
+    --plugin-names concept_interpolation
 ```
 
 Refer to the [main README](https://github.com/voxel51/fiftyone-plugins) for
