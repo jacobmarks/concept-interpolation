@@ -1,4 +1,4 @@
-name: "concept_interpolation"
+name: "@jacobmarks/concept_interpolation"
 description: Find images that best interpolate between two text-based extremes!
 version: 1.0.0
 fiftyone:
