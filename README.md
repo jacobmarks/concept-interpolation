@@ -11,13 +11,6 @@ sort by similarity on similarity index with selected brain key, with the query
 
 $$v = \alpha v_l + (1 - \alpha) v_r$$
 
-It demonstrates how to do the following:
-
--   use Python and JS in the same plugin
--   create a `Panel` with custom components
--   query dataset properties from JS
--   add an SVG icon to the UI
-
 **Note:** This plugin requires a similarity index that supports prompts (i.e.
 embeds text and images) to be present on the dataset. You can create one with:
 
@@ -33,6 +26,9 @@ fob.compute_similarity(
     metric="cosine",
     )
 ```
+
+## Watch On Youtube
+[![Video Thumbnail](https://img.youtube.com/vi/EQGYxPwM0pM/0.jpg)](https://www.youtube.com/watch?v=EQGYxPwM0pM&list=PLuREAXoPgT0RZrUaT0UpX_HzwKkoB-S9j&index=1)
 
 ## Installation
 
