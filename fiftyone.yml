@@ -1,8 +1,8 @@
 name: "@jacobmarks/concept_interpolation"
 description: Find images that best interpolate between two text-based extremes!
-version: 1.0.0
+version: 1.0.1
 fiftyone:
-  version: ">=0.21.0"
+  version: ">=0.23.8"
 license: Apache 2.0
 url: "https://github.com/jacobmarks/concept-interpolation/blob/main/README.md"
 operators:

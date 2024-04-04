@@ -5,8 +5,6 @@
 |
 """
 
-from bson import json_util
-import json
 from scipy import linalg
 
 
@@ -47,10 +45,6 @@ def run_interpolation(ctx):
     view = dataset.sort_by_similarity(text_vector, brain_key=index.key, k=25)
 
     return view
-
-
-def serialize_view(view):
-    return json.loads(json_util.dumps(view._serialize()))
 
 
 class OpenInterpolationPanel(foo.Operator):
@@ -121,10 +115,7 @@ class RunInterpolation(foo.Operator):
 
     def execute(self, ctx):
         view = run_interpolation(ctx)
-        ctx.trigger(
-            "set_view",
-            params=dict(view=serialize_view(view)),
-        )
+        ctx.ops.set_view(view=view)
 
 
 def register(p):
